@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Ejemplo de Formulario</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <style>
+    .right-align {
+      text-align: right;
+    }
+  </style>
+</head>
+<body>
+  <div class="container mt-5">
+    <h1>Ejemplo de Formulario</h1>
+
+    <form>
+      <div class="form-row">
+        <div class="form-group col">
+          <label for="numeroTarjeta">Número de Tarjeta:</label>
+          <input type="text" class="form-control" id="numeroTarjeta" placeholder="Ingrese el número de tarjeta">
+        </div>
+        <div class="form-group col">
+          <label for="codigoSecreto">Código Secreto:</label>
+          <input type="password" class="form-control" id="codigoSecreto" placeholder="Ingrese el código secreto">
+        </div>
+        <div class="form-group col">
+          <label for="valor">Valor:</label>
+          <input type="text" class="form-control" id="valor" placeholder="Ingrese el valor">
+        </div>
+      </div>
+
+      <div class="form-row">
+        <div class="form-group col">
+          <label for="nombre">Nombre:</label>
+          <input type="text" class="form-control" id="nombre" placeholder="Ingrese su nombre">
+        </div>
+        <div class="form-group col">
+          <label for="apellido">Apellido:</label>
+          <input type="text" class="form-control" id="apellido" placeholder="Ingrese su apellido">
+        </div>
+      </div>
+
+  
+      <div class="form-row">
+        <div class="form-group col">
+          <label for="ciudad">Ciudad:</label>
+          <input type="text" class="form-control" id="ciudad" placeholder="Ingrese su ciudad">
+        </div>
+        <div class="form-group col">
+          <label for="estado">Estado:</label>
+          <select class="form-control" id="estado">
+            <option value="">Seleccione...</option>
+            <option value="1">Santiago </option>
+            <option value="2">Valparaiso </option>
+            <option value="3">La Serna </option>
+          </select>
+        </div>
+        <div class="form-group col">
+          <label for="codigoPostal">Código Postal:</label>
+          <input type="text" class="form-control" id="codigoPostal" placeholder="Ingrese el código postal">
+        </div>
+      </div>
+      <div>
+						<label for="Aceptamos">Aceptamos:</label>
+						<input type="radio" name="aceptamos" value="Visa" checked />visa <input type="radio" name="aceptamos" value="Mastercard" checked />Mastercard
+					</div>
+      </div>
+
+
+      <h2>Mensaje</h2>
+
+      <div class="form-row">
+        <div class="form-group col">
+          <textarea class="form-control" id="mensaje" rows="3"></textarea>
+        </div>
+      </div>
+
+      <div class="form-row right-align">
+        <div class="form-group col">
+          <button type="submit" class="btn btn-primary">Enviar</button>
+          <button type="button" class="btn btn-secondary">Cancelar</button>
+        </div>
+      </div>
+    </form>
+  </div>
+
+  <script
+
+ src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+</body>
+</html>
